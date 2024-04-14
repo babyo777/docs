@@ -11,6 +11,12 @@ Endpoint - [https://music-player-api-mu.vercel.app/al/](https://music-player-api
 
 After /al/, enter the album name with the artist's name for better results.
 
+## Endpoints
+
+Get Albums - [https://music-player-api-mu.vercel.app/al/Lunch Break](https://music-player-api-mu.vercel.app/al/Lunch%20Break)
+
+Get Album Songs (Takes Album ID) - [https://music-player-api-mu.vercel.app/ga/MPREb_ssw2KCCsqYW](https://music-player-api-mu.vercel.app/ga/MPREb_ssw2KCCsqYW)
+
 ## Example
 
 ### Get Albums

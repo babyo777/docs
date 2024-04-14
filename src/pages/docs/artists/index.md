@@ -11,6 +11,12 @@ Endpoint - [https://music-player-api-mu.vercel.app/a/](https://music-player-api-
 
 After /a/ enter artist's name.
 
+## Endpoints
+
+Get Artists - [https://music-player-api-mu.vercel.app/a/Taylor Swift](https://music-player-api-mu.vercel.app/a/Taylor%20Swift)
+
+Get Artist Details (Takes Artist ID) - [https://music-player-api-mu.vercel.app/ga/UCPC0L1d253x-KuMNwa05TpA](https://music-player-api-mu.vercel.app/ga/UCPC0L1d253x-KuMNwa05TpA)
+
 ## Example
 
 ### Get Artists

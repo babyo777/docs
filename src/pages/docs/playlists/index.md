@@ -11,9 +11,17 @@ Endpoint - [https://music-player-api-mu.vercel.app/p/](https://music-player-api-
 
 After /p/ enter playlist name.
 
+## Endpoints
+
+Get Playlists - [https://music-player-api-mu.vercel.app/p/Billie Eilish][def]
+
+Get Playlist Songs (Takes Playlist ID) - [https://music-player-api-mu.vercel.app/ps/VLPLiyHrD1Lz34xUsqSUE2lyNRf-d_wbbqcz][def2]
+
+Get Playlist Detail (Takes Playlist ID) - [https://music-player-api-mu.vercel.app/gpd/VLPLiyHrD1Lz34xUsqSUE2lyNRf-d_wbbqcz](https://music-player-api-mu.vercel.app/gpd/VLPLiyHrD1Lz34xUsqSUE2lyNRf-d_wbbqcz)
+
 ## Example
 
-### Get Playlists 
+### Get Playlists
 
 ```javascript
 const axios = require('axios');
@@ -63,7 +71,7 @@ getPlaylistSongs(playlistId);
 
 ```
 
-### Get Playlist Detail (Takes Playlist ID) 
+### Get Playlist Detail (Takes Playlist ID)
 
 ```javascript
 const axios = require('axios');
@@ -86,3 +94,6 @@ async function getPlaylistDetails(playlistId) {
 const playlistId = 'VLPLiyHrD1Lz34xUsqSUE2lyNRf-d_wbbqcz'; // Example playlist ID
 getPlaylistDetails(playlistId);
 ```
+
+[def]: https://music-player-api-mu.vercel.app/p/Billie%20Eilish
+[def2]: https://music-player-api-mu.vercel.app/ps/VLPLiyHrD1Lz34xUsqSUE2lyNRf-d_wbbqcz
