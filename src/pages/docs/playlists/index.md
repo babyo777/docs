@@ -5,7 +5,9 @@ description: Authentication is not required for accessing endpoints.
 
 ## Endpoint
 
-Endpoint - [https://music-player-api-mu.vercel.app/p/](https://music-player-api-mu.vercel.app/p/)
+```javascript
+https://music-player-api-mu.vercel.app/p/
+```
 
 ## How to use
 
@@ -13,11 +15,23 @@ After /p/ enter playlist name.
 
 ## Endpoints
 
-Get Playlists - [https://music-player-api-mu.vercel.app/p/Billie Eilish][def]
+Get Playlists
 
-Get Playlist Songs (Takes Playlist ID) - [https://music-player-api-mu.vercel.app/ps/VLPLiyHrD1Lz34xUsqSUE2lyNRf-d_wbbqcz][def2]
+```javascript
+https://music-player-api-mu.vercel.app/p/Billie Eilish
+```
 
-Get Playlist Detail (Takes Playlist ID) - [https://music-player-api-mu.vercel.app/gpd/VLPLiyHrD1Lz34xUsqSUE2lyNRf-d_wbbqcz](https://music-player-api-mu.vercel.app/gpd/VLPLiyHrD1Lz34xUsqSUE2lyNRf-d_wbbqcz)
+Get Playlist Songs (Takes Playlist ID)
+
+```javascript
+https://music-player-api-mu.vercel.app/ps/VLPLiyHrD1Lz34xUsqSUE2lyNRf-d_wbbqcz
+```
+
+Get Playlist Detail (Takes Playlist ID)
+
+```javascript
+https://music-player-api-mu.vercel.app/gpd/VLPLiyHrD1Lz34xUsqSUE2lyNRf-d_wbbqcz
+```
 
 ## Example
 
@@ -94,6 +108,3 @@ async function getPlaylistDetails(playlistId) {
 const playlistId = 'VLPLiyHrD1Lz34xUsqSUE2lyNRf-d_wbbqcz'; // Example playlist ID
 getPlaylistDetails(playlistId);
 ```
-
-[def]: https://music-player-api-mu.vercel.app/p/Billie%20Eilish
-[def2]: https://music-player-api-mu.vercel.app/ps/VLPLiyHrD1Lz34xUsqSUE2lyNRf-d_wbbqcz

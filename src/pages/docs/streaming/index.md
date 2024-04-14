@@ -5,8 +5,14 @@ description: Authentication is not required for accessing endpoints.
 
 ## Endpoint
 
-- Endpoint - [https://alone-dorothee-wolfey.koyeb.app?url=](https://alone-dorothee-wolfey.koyeb.app?url=)
+- Endpoint
+
+```javascript
+https://alone-dorothee-wolfey.koyeb.app?url=
+```
+
 - Deploy You Own - [Deploy Now](https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=https://github.com/babyo7/stream-audio)
+
 - Source Code - [https://github.com/babyo7/stream-audio](https://github.com/babyo7/stream-audio)
 
 ## Example

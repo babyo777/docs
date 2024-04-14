@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
-
+import { IoLogoInstagram } from 'react-icons/io';
+import { FiGithub } from 'react-icons/fi';
+import { SiInstagram } from 'react-icons/si';
 const Burger = dynamic(() => import('./burger'));
 
 function Header() {
@@ -61,8 +63,16 @@ function Header() {
             "
             passHref
           >
-            Napster Docs
+            <p className="font-semibold">Napster Docs</p>
           </Link>
+        </div>
+        <div className=" flex space-x-2">
+          <a href="https://github.com/babyo77/napsterDrx-Public" target="blank">
+            <FiGithub className="h-5 w-5" />
+          </a>
+          <a href="https://www.instagram.com/babyo7_/" target="blank">
+            <SiInstagram className=" h-5 w-5" />
+          </a>
         </div>
       </div>
     </header>

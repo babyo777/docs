@@ -5,7 +5,9 @@ description: Authentication is not required for accessing endpoints.
 
 ## Endpoint
 
-Endpoint - [https://music-player-api-mu.vercel.app/al/](https://music-player-api-mu.vercel.app/al/)
+```javascript
+https://music-player-api-mu.vercel.app/al/
+```
 
 ## How to use
 
@@ -13,9 +15,17 @@ After /al/, enter the album name with the artist's name for better results.
 
 ## Endpoints
 
-Get Albums - [https://music-player-api-mu.vercel.app/al/Lunch Break](https://music-player-api-mu.vercel.app/al/Lunch%20Break)
+Get Albums
 
-Get Album Songs (Takes Album ID) - [https://music-player-api-mu.vercel.app/ga/MPREb_ssw2KCCsqYW](https://music-player-api-mu.vercel.app/ga/MPREb_ssw2KCCsqYW)
+```javascript
+https://music-player-api-mu.vercel.app/al/Lunch Break
+```
+
+Get Album Songs (Takes Album ID)
+
+```javascript
+https://music-player-api-mu.vercel.app/ga/MPREb_ssw2KCCsqYW
+```
 
 ## Example
 

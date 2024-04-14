@@ -5,7 +5,10 @@ description: Authentication is not required for accessing endpoints.
 
 ## Endpoint
 
-Endpoint - [https://music-player-api-mu.vercel.app/lrc/](https://music-player-api-mu.vercel.app/lrc/)
+
+```javascript
+https://music-player-api-mu.vercel.app/lrc/
+```
 
 ## How to use
 

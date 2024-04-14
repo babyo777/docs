@@ -5,7 +5,9 @@ description: Authentication is not required for accessing endpoints.
 
 ## Endpoint
 
-Endpoint - [https://music-player-api-mu.vercel.app/a/](https://music-player-api-mu.vercel.app/a/)
+```javascript
+https://music-player-api-mu.vercel.app/a/
+```
 
 ## How to use
 
@@ -13,9 +15,17 @@ After /a/ enter artist's name.
 
 ## Endpoints
 
-Get Artists - [https://music-player-api-mu.vercel.app/a/Taylor Swift](https://music-player-api-mu.vercel.app/a/Taylor%20Swift)
+Get Artists
 
-Get Artist Details (Takes Artist ID) - [https://music-player-api-mu.vercel.app/ga/UCPC0L1d253x-KuMNwa05TpA](https://music-player-api-mu.vercel.app/ga/UCPC0L1d253x-KuMNwa05TpA)
+```javascript
+https://music-player-api-mu.vercel.app/a/Taylor Swift
+```
+
+Get Artist Details (Takes Artist ID)
+
+```javascript
+https://music-player-api-mu.vercel.app/ga/UCPC0L1d253x-KuMNwa05TpA
+```
 
 ## Example
 
