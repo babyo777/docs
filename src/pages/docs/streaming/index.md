@@ -5,8 +5,6 @@ description: Authentication is not required for accessing endpoints.
 
 ## Endpoint
 
-- Endpoint
-
 ```javascript
 https://alone-dorothee-wolfey.koyeb.app?url=
 ```
