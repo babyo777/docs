@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
-import { IoLogoInstagram } from 'react-icons/io';
 import { FiGithub } from 'react-icons/fi';
 import { SiInstagram } from 'react-icons/si';
 const Burger = dynamic(() => import('./burger'));
