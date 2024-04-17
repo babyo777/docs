@@ -50,7 +50,7 @@ function Header() {
         <div className="flex items-center">
           <Burger />
           <Link
-            href="/docs"
+            href="https://napster-drx.vercel.app"
             className="
               flex
               flex-row
